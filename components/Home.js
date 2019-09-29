@@ -18,6 +18,7 @@ class Home extends React.Component {
           text: "",
           image: null,
         }
+        
     }
 
     showPicker = () => {
@@ -67,6 +68,7 @@ class Home extends React.Component {
               title="ImagePicker"
               onPress={this.showPicker} 
             />
+            
         </View>
       );
     }
